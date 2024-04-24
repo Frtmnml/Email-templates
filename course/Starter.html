@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta http-equiv="Content-Type" content="text/html" ; charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale-1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <style type="text/css">
+        /* CLIENT-SPECIFIC STYLES */
+        body,
+        table,
+        td,
+        a {
+            -webkit-text-size-adjust: 100%;
+            -ms-text-size-adjust: 100%;
+        }
+
+        table,
+        td {
+            mso-table-lspace: 0pt;
+            mso-table-rspace: 0pt;
+        }
+
+        img {
+            -ms-interpolation-mode: bicubic;
+        }
+
+        /* RESET STYLES */
+        img {
+            border: 0;
+            height: auto;
+            line-height: 100%;
+            outline: none;
+            text-decoration: none;
+        }
+
+        table {
+            border-collapse: collapse !important;
+        }
+
+        body {
+            height: 100% !important;
+            margin: 0 !important;
+            padding: 0 !important;
+            width: 100% !important;
+        }
+
+        html {
+            box-sizing: border-box;
+            height: 100%;
+            width: 100%;
+        }
+
+        *,
+        *:before,
+        *:after {
+            box-sizing: inherit;
+        }
+
+
+        /* iOS BLUE LINKS */
+        a[x-apple-data-detectors] {
+            color: inherit !important;
+            text-decoration: none !important;
+            font-size: inherit !important;
+            font-family: inherit !important;
+            font-weight: inherit !important;
+            line-height: inherit !important;
+        }
+
+        /* GMAIL BLUE LINKS */
+        u+#body a {
+            color: inherit;
+            text-decoration: none;
+            font-size: inherit;
+            font-family: inherit;
+            font-weight: inherit;
+            line-height: inherit;
+        }
+
+        /* SAMSUNG MAIL BLUE LINKS */
+        #MessageViewBody a {
+            color: inherit;
+            text-decoration: none;
+            font-size: inherit;
+            font-family: inherit;
+            font-weight: inherit;
+            line-height: inherit;
+        }
+
+        /* Universal styles for links and stuff */
+        a {
+            color: #229efd;
+            font-weight: bold;
+        }
+
+        a:hover {
+            color: #fd6350;
+            text-decoration: none;
+        }
+
+        a.button:hover {
+            background-color: #fd6350 !important;
+        }
+
+        /* Interactive elements */
+        /* Hide Inputs */
+
+        input { display: none;}
+
+        /* Make labels look clickeable */
+        label { cursor: pointer;}
+
+        /* Hide Slides */
+        .slide { display: none;}
+
+        /* Show the checked slides */
+        #slide1:checked ~ .slide1 {display: block;}
+        #slide2:checked ~ .slide2 {display: block;}
+        #slide3:checked ~ .slide3 {display: block;}
+
+
+    </style>
+</head>
+
+<body id="body" style="margin: 0 !important; padding: 0 !important; background-color: rgb(31, 25, 25);">
+
+    <div
+        style="background-color: rgb(28, 28, 28); color: rgb(255, 255, 255); font-family: sans-serif; font-size: 18px; line-height: 28px; margin: 0 auto; max-width: 600px;">
+
+        <!-- Logo Image -->
+
+        <center>
+            <img src="/logo.jpg" alt="" width="60px" style="border-radius: 60px; display: block; margin: 0 auto;">
+        </center>
+
+        <!-- Headline -->
+
+        <h1 style="margin: 40px 0; text-align: center;">This is a heading!</h1>
+
+        <!-- Triggers for swtiching content -->
+        <input type="radio" name="slides" id="slide1" checked>
+        <input type="radio" name="slides" id="slide2">
+        <input type="radio" name="slides" id="slide3">
+
+        <label for="slide1" class="slide-label" style="border: 2px solid rgb(237, 237, 237); display: inline-block; margin: 10px; padding: 4px 20px;">Slide 1</label>
+        <label for="slide2" class="slide-label" style="border: 2px solid rgb(237, 237, 237); display: inline-block; margin: 10px; padding: 4px 20px;">Slide 2</label>
+        <label for="slide3" class="slide-label" style="border: 2px solid rgb(237, 237, 237); display: inline-block; margin: 10px; padding: 4px 20px;">Slide 3</label>
+
+        <div class="slide slide1" style="background-color: rgb(255, 192, 203); color: black; padding: 10px; border-radius: 10px;">
+            <p style="text-align: center;">This is a changing banner</p>
+        </div>
+        <div class="slide slide2" style="background-color: rgb(192, 215, 255); color: black; padding: 10px; border-radius: 10px;">
+            <p style="text-align: center;">This is a changing banner</p>
+        </div>
+        <div class="slide slide3" style="background-color: rgb(255, 248, 192); color: black; padding: 10px; border-radius: 10px;">
+            <p style="text-align: center;">This is a changing banner</p>
+        </div>
+
+        <!-- Content to beswtiching switched -->
+
+
+        <!-- Hero Image -->
+        <img src="/hero.jpg" alt="Envision festival picture" width="600" border="0"
+            style="display: block; max-width: 100%; min-width: 100px; width: 100%;">
+
+        <!-- Body Copy -->
+        <p style="margin: 40 0 40px 0;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae qui magnam
+            fuga consequatur in dolorem sed est quam sit. Vel, soluta ratione vitae corrupti animi nobis ipsam officiis
+            minima repudiandae praesentium perferendis tempora fuga.</p>
+
+        <!-- CTA -->
+        <div style="text-align: center;">
+            <!--[if mso]>
+        <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://goloud.vip" style="height:38px;v-text-anchor:middle;width:200px;" arcsize="264%" strokecolor="#55734e" fill="t">
+        <v:fill type="tile" src="" color="#99e96d" />
+        <w:anchorlock/>
+          <center style="color:#424242;font-family:sans-serif;font-size:13px;font-weight:bold;">GET TICKETS</center>
+        </v:roundrect>
+      <![endif]--><a href="https://goloud.vip"
+                style="background-color:#99e96d;background-image:url();border:1px solid #55734e;border-radius:100px;color:#424242;display:inline-block;font-family:sans-serif;font-weight:bold;line-height:38px;text-align:center;text-decoration:none;width:200px;-webkit-text-size-adjust:none;mso-hide:all;">GET
+                TICKETS</a>
+        </div>
+
+        <!-- Footer -->
+        <div
+            style="color: grey; font-family: sans-serif; font-size: 16px; line-height: 26px; margin: 0 auto; max-width: 600px;">
+            <p style="margin: 60px 0 20px 0">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat id nisi
+                maiores.<a href="#" style="color: purple; font-weight: bold; text-decoration: none;" ;>Feel free to
+                    unsubscribe.</a></p>
+            <p style="margin: 0 0 60px 0;">1234 Main St. Anywhere, MA 01234</p>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
